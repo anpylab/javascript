@@ -3,15 +3,15 @@
   <li>
     Explain Javascript programing paradim.
     <p>
-      Javascript is a multi paradim programing language, it supports event-driven, functional, imperative (including object-oriented and prototype-based) programming styles.
+      Javascript is a multi paradim programing language, it supports <strong>event-driven, functional, imperative</strong> (including object-oriented and prototype-based) programming styles.
     </p>
   </li>
   <li>
     what is function in javascript?
     <p>
-   Function is a subprogram and desinged to perform particular operation.
-   Function always return value, In Javascript by default reutrn undefined in case the function is not any value.
-   Function will excute within the scope.
+   Function is a subprogram and desinged to perform particular operation.<br>
+   Function always return value, In Javascript by default reutrn undefined in case the function is not any value.<br>
+   Function will excute within the scope.<br>
    functions are Object in Javascript.
     </p>
   </li>
@@ -69,20 +69,20 @@
   <p>
     __proto__: It is property of Object.<br>
     prototype: Property of function.</br>
-    To make it a little bit clear in addition to above great answers:
-function Person(name){
-    this.name = name
- }; 
-var eve = new Person("Eve");
-eve.__proto__ == Person.prototype //true
-eve.prototype  //undefined
-Instances have __proto__, classes have prototype.
+    To make it a little bit clear in addition to above great answers:<br>
+function Person(name){<br>
+    this.name = name<br>
+ }; <br>
+var eve = new Person("Eve");<br>
+eve.__proto__ == Person.prototype //true<br>
+eve.prototype  //undefined<br>
+Instances have __proto__, classes have prototype.<br><br>
 
-function Foo() {}
-var b = new Foo();
-b.__proto__ === Foo.prototype // true
-Foo.__proto__ === Function.prototype // true
-Function.prototype.__proto__ === Object.prototype // true
+function Foo() {}<br>
+var b = new Foo();<br>
+b.__proto__ === Foo.prototype // true<br>
+Foo.__proto__ === Function.prototype // true<br>
+Function.prototype.__proto__ === Object.prototype // true<br>
   </p>
   </li>
   <li>
