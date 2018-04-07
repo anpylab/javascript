@@ -36,9 +36,8 @@
     <p> A closure is an inner function that has access to the outer (enclosing) function's variables—scope chain. The closure has three scope chains: it has access to its own scope (variables defined between its curly brackets), it has access to the outer function's variables, and it has access to the global variables.</p>
   </li>
   <li>
-    Javascript Prototype
-    <li>
-      All JavaScript objects inherit the properties and methods from their prototype.	Objects created using an object literal, or with new Object(), inherit from a prototype called Object.prototype.
+    Javascript Prototype  
+   <p> All JavaScript objects inherit the properties and methods from their prototype. Objects created using an object literal, or with new Object(), inherit from a prototype called Object.prototype.</p>
   </li>
   <li> 
     what is First-class functions
