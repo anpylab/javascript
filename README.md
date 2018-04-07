@@ -67,8 +67,8 @@
  <li> 
   Diffrence between __proto__ and  prototype
   <p>
-    __proto__: It is property of Object.<br>
-    prototype: Property of function.</br>
+   <strong> __proto__:<strong> It is property of Object.<br>
+    <strong>prototype:<strong> Property of function.</br>
     To make it a little bit clear in addition to above great answers:<br>
 function Person(name){<br>
     this.name = name<br>
