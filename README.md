@@ -106,5 +106,24 @@ Function.prototype.__proto__ === Object.prototype // true<br>
     Debounce
     <p>Debouncing enforces that a function not be called again until a certain amount of time has passed without it being called. As in "execute this function only if 100 milliseconds have passed without it being called.</p>
   </li>
-  </ol>
-    <h1> ES6 Features</h1>
+  <li> call(), apply and bind() methods
+	<p><strong>Call:</strong> A function with argument provide individually. If you know the arguments to be passed or there are no argument to pass you can use call.
+		function.call(thisArg, arg1, arg2, ...)</p>
+	<p><strong>Apply:</strong> Call a function with argument provided as an array. You can use apply if you don't know how many argument are going to pass to the functionfunction.apply(thisArg, [argsArray]);</p>
+	<p><strong>Bind:</strong> Use .bind() when you want that function to later be called with a certain context, useful in events.</p>
+        </li>
+<li>
+	Promise
+	<p>promises in JavaScript give us the ability to write asynchronous code in a parallel manner to synchronous code.A promise represents the eventual result of an asynchronous operation. It is a placeholder into which the successful result value or reason for failure will materialize. it has three state <strong>Pending, resolve  and reject</strong></p>
+</li>
+</ol>
+<h1>ES6 Features</h1>
+<ol>
+<li>What is arrow function?<br>A shorter syntax then typical functions</li>
+<li>Arrow functions should NOT be used:<br>
+	When we want function hoisting<br>
+	When we want to use this/arguments in a function<br>
+	When we want to use named function<br>
+	When we want to use function as a constructor<br>
+	When we want to add function as a property in object literal and use object in it
+</ol>
