@@ -66,7 +66,7 @@
       ```
 13. What is Hoisting?\
     Hoisting is the JavaScript interpreter's action of moving all variable and function declarations to the top of the current scope. However, only the actual declarations are hoisted
-14. What are the diffrent types of error in javascript?
+14. What are the different types of error in javascript?
     - **Load time errors:** Errors comes up when page loads like improper syntax error
     - **Run time errors:** Errors comes out that misuse of command inside the HTML command.
 15. Throttling
