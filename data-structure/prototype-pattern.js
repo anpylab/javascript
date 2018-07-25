@@ -4,12 +4,12 @@ let person = function () {
     this.age = 30;
 }
 person.prototype.county = "IN";
-person.prototype = function () {
-    getFullnName = function () {
-        return firstName + " " + lastName;
+person.prototype = (function () {
+    getFullName = function () {
+        return "Full Name";
     }
     return {
-        fullname: getFullnName
+        fullname: getFullName
     };
-}();
-console.log(person.prototype.fullname())
+})();
+console.log(person.prototype.fullname());
