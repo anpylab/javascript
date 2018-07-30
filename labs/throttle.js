@@ -4,13 +4,13 @@
  * @param {*} delay 
  */
 function throttle(func, delay) {
-  let timeout = null
+  let timeout = null;
   return function (...args) {
     if (!timeout) {
       timeout = setTimeout(() => {
-        func.call(this, ...args)
-        timeout = null
-      }, delay)
+        func.call(this, ...args);
+        timeout = null;
+      }, delay);
     }
   }
 }

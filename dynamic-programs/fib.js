@@ -1,5 +1,5 @@
 /**
- * Fib
+ * Soultion 1
  * @param {*} n 
  */
 function fib(n) {
@@ -14,3 +14,18 @@ function fib(n) {
     return f;
 }
 console.log(fib(10));
+//Solution 2
+function fibonacci(num) {
+    var a = 1,
+        b = 0,
+        temp;
+    while (num >= 0) {
+        temp = a;
+        a = a + b;
+        b = temp;
+        num--;
+    }
+    return b;
+}
+console.log("--------Solution 2----------");
+console.log(fibonacci(5));
