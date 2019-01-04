@@ -13,7 +13,7 @@ function secondLargestNumber(a) {
             }
         }
     } else {
-        console.log("array is null or emtpy");
+        console.log("array is null or empty.");
     }
     return s;
 }

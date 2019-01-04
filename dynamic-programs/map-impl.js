@@ -33,7 +33,7 @@ function map(timesFive, myArray) {
     }
     return newArr;
 }
-console.log(map(timesFive, myArray));
+//console.log(map(timesFive, myArray));
 
 // Option 2
 function map(timesFive) {

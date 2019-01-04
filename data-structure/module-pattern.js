@@ -19,3 +19,6 @@ let myModule = (function () {
 
 myModule.setValue(10);
 console.log(myModule.getValue());
+
+myModule.setValue(13);
+console.log(myModule.getValue());
