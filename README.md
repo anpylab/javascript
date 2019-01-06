@@ -1,16 +1,21 @@
 # Contents
   - [Event Loop](/eventloop.md)
   - [ES6 Features](/es6.md)
-
+  - [Coding Exercises](/coding-exercises.md)
 # javascript Concepts
 1. Javascript Dataype
    Javascript are six primitive data types
-    - Number (Numbers are with decimal an without decimal)
-    - String
-    - Boolean
-    - Null
-    - Undefined
-    - Symbol (ES6)
+    - Primitive data types
+        - Number (Numbers are with decimal an without decimal)
+        - String
+        - Boolean
+    - Object Data type
+         - Object
+         - Array
+    - Spcial Data type
+        - Null
+        - Undefined
+        - Symbol (ES6)
 2. Explain Javascript programing paradigm.
   - Javascript is a multi paradigm programing language, it supports  **event-driven, functional, imperative**
    (including object-oriented and prototype-based) programming styles.
