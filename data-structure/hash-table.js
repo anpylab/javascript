@@ -7,11 +7,13 @@ function HashTable(size) {
     let list = [];
 
     function _put(key, value) {
-
+        list[key] = value;
     }
 
     function _get(key) {
-
+        console.log(list)
+        let val = list[key] ? list[key] : null;
+        return val;
     }
     return {
         put: _put,
@@ -20,3 +22,6 @@ function HashTable(size) {
 }
 
 let hashTable = new HashTable();
+hashTable.put('one', 1);
+hashTable.put('two', 2);
+console.log(hashTable.get('one'));
