@@ -7,7 +7,7 @@ function Stack() {
         arr.push(value);
     };
     _popEle = function (value) {
-        arr.pop();
+        return arr.pop();
     };
     _print = function (value) {
         console.dir(arr);
@@ -20,5 +20,7 @@ function Stack() {
 }
 let s = Stack();
 s.push(1);
+s.push(2);
+s.push(3);
 s.print();
 s.pop();
